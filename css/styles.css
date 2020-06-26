@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: #000;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 5% 5% 0;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.meet {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+
+h3{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+/* title-img */
+.title-img {
+  width: 50%;
+  transform: rotate(18deg);
+  margin-left: 30%;
+  margin-bottom: 20%;
+  position: static;
+  right: 10%;
+
+}
+
+@media (max-width: 900px) {
+  .title-image {
+    position: relative;
+    transform: rotate(-18deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+/* ............................................................ */
+
+#features {
+  padding: 10% 15%;
+  margin: 5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.ft-box{
+  padding: 0 5%;
+}
+
+.fonticon{
+  color: #FF4C68;
+  padding-bottom: 2rem;
+}
+
+.fonticon:hover{
+  color: #d92027;
+}
+
+/* ................................................................ */
+
+#testimonials {
+  text-align: center;
+  background-color: #FF4C68;
+}
+
+h2{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #000;
+}
+
+.test-dog{
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* ............................................................. */
+
+#press {
+  background-color: #FF4C68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-img{
+  padding: 3%;
+  margin: 0 10px 0 10px;
+  width: 20%;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Pricing  ----------------------    */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-coloumn{
+  padding: 3%;
+}
+
+/* CTA........................................... */
+
+#cta {
+  text-align: center;
+  background-color: #FF4C68;
+  padding: 5% 15%;
+
+}
+
+.cta-heading{
+  color: #fff;
+}
+
+#footer{
+  padding: 3% 15% 0 15%;
+  text-align: center;
+
+}
+
+.footicon{
+  margin: 2%;
+}
